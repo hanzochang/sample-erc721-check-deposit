@@ -11,10 +11,15 @@ cp .env.sample .env
 ```
 
 ```
-NFT_CONTRACT_ADDRESS={{Insert ERC721 contract address}}
 RPC_URL={{EVM RPC URL e.g. alchemy, infra}}
 NETWORK={{network e.g. mainnet, goerli, munbai}}
-YOUR_WALLET_ADDRESS={{Wallet address you want to check}}
+
+# NFT Contract
+NFT_CONTRACT_ADDRESS=
+# Sender EOA
+TARGET_WALLET_ADDRESS=
+# Deposit EOA
+DEPOSITED_ON_WALLET_ADDRESS=
 ```
 
 #### Get RPC URL
